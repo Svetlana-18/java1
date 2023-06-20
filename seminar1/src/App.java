@@ -8,6 +8,9 @@ public class App {
 
     }
 
+    // Задача 1. Вычислить сумма чисел от 1 до n. Первый способ рекурсией. 
+    // Иду от последнего заданного числа и на уменьшение до 1. Второй - через цикл for.
+    
     // public static int sum(int n) {
     // if (n==1) return 1;
     // return n+sum(n-1);
@@ -21,6 +24,9 @@ public class App {
         return sum;
     }
 
+
+    // Задача2. Вывести все простые числа от 1 до 1000
+    
     private static void task2() {
         System.out.println("Введите положительное число: ");
         Scanner iScanner = new Scanner(System.in);
